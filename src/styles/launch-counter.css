@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.launch-main-body {
+    @apply
+    flex relative  items-center justify-center  
+
+    sm:w-[175px]
+    md:w-[150px]
+    lg:w-[300px]
+    xl:w-[300px]
+
+    sm:h-[75px]
+    md:h-[50px]
+    lg:h-[100px]
+    xl:h-[100px]
+
+    ;
+}

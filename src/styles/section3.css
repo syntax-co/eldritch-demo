@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.section3-main-body {
+    @apply
+    w-full  px-32 flex flex-col items-center
+
+    sm:px-0
+    md:px-0
+    lg:px-24
+    xl:px-32
+
+    ;
+}
+
+
+.section3-sub1 {
+    @apply
+     w-2/3
+
+    
+    sm:w-full
+    md:w-full
+    lg:w-2/3
+    xl:w-2/3
+
+    ;
+}
+
+
+.section3-sub2 {
+    @apply
+    w-full h-[80vh] flex items-center
+    ;
+}
+
+.sect3-sub1-text1 {
+    @apply
+    w-fit text-white text-4xl font-bold 
+    
+
+    sm:mb-8
+    md:mb-14
+    lg:mb-20
+    xl:mb-20
+
+    sm:px-4
+    md:px-4
+    lg:px-0
+    xl:px-0
+
+    sm:text-lg
+    md:text-lg
+    lg:text-4xl
+    xl:text-4xl
+
+    ;
+}
+
+.sect3-sub1-text2 {
+ @apply
+ w-[40vw] text-white text-2xl
+
+ sm:mb-8
+ md:mb-14
+ lg:mb-20
+ xl:mb-20
+ 
+
+ sm:mx-auto
+ md:mx-auto
+ lg:mx-0
+ xl:mx-0
+
+ sm:w-11/12
+ md:w-[40vw]
+ lg:w-[40vw]
+ xl:w-[40vw]
+
+ sm:text-lg
+ md:text-lg
+ lg:text-2xl
+ xl:text-2xl
+ ;
+}
+
+
+.section3-signup-holder {
+    @apply
+     h-full w-full text-white 
+    flex 
+    items-center
+
+    
+
+
+    ;
+}
+
+
+.signup-holder-left {
+    @apply
+    h-full w-full flex flex-col  
+    
+    sm:w-full
+    md:w-full
+    lg:w-1/2
+    xl:w-1/2
+
+    ;
+}
+
+
+.section3-backer-image-holder {
+    @apply
+    w-1/2 h-full
+
+    sm:hidden
+    md:hidden
+    lg:block
+    xl:block
+
+    ;
+}
+
+
+.section3-backer-image-holder-2 {
+    @apply
+    aspect-video
+    w-full
+    flex justify-center
+    
+    my-6
+
+    sm:block
+    md:block
+    lg:hidden
+    xl:hidden
+
+    
+}
+
+
+.section3-signup-holder-title {
+    @apply
+    mx-auto
+
+    sm:mt-2
+    md:mt-4
+    lg:mt-12
+    xl:mt-24
+
+
+    sm:text-xl
+    md:text-xl
+    lg:text-3xl
+    xl:text-4xl
+
+    ;
+}
+
+.section3-signup-form {
+
+    @apply
+    w-fit mx-auto flex flex-col justify-center
+    
+    
+    sm:my-auto
+    md:my-auto
+    /* lg:my-0
+    xl:my-0 */
+
+    /* sm:mt-0
+    md:mt-0 */
+    lg:mt-10
+    xl:mt-32
+
+    ;
+
+}

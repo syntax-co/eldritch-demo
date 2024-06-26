@@ -2,32 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@import url('./top-bar.css');
+@import url('./fonts.css');
+@import url('./section1.css');
+@import url('./section2.css');
+@import url('./section3.css');
+
+@import url('./launch-counter.css');
+
+
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+  background: linear-gradient(90deg,#1d1d1d,#241E2E);
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+input {
+  background-color: transparent;
+}
+
+input:hover {
+  border: none
+}
+
+input:focus {
+  outline: none;
 }

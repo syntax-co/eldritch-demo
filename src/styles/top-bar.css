@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+.bar-main-body {
+    @apply
+    w-full flex items-center px-32
+    
+    
+    sm:px-2
+    md:px-16
+    lg:px-28
+    xl:px-32
+    
+    ;
+}
+
+
+
+.top-bar-image-holder {
+    @apply
+    bg-center bg-contain bg-no-repeat
+    my-4 h-20
+    aspect-video
+
+    sm:w-[100px]
+    md:w-[100px]
+    lg:w-[100px]
+    xl:w-[100px]
+
+    ;
+}
